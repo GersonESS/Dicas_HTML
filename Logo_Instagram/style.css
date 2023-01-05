@@ -1,8 +1,34 @@
 div {
-    width: 20px;
-    height: 20px;
+    width: 20rem;
+    height: 20rem;
     color: #fff;
     background: radial-gradient(
         circle at 33% 100%,
+        #fed373 4%,
+        #f15245 30%,
+        #c927e7 62%,
+        #9b36b7 85%,
+        #515ecf
     );
+    border-radius: 30%;
+    position: relative;
+}
+div:before{
+    content: " ";
+    border: 1rem 30%;
+    border-radius: 30%;
+    width: 12.5rem;
+    height: 12.5rem;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+div:after{
+    content: " ";
+    border: 1rem 30%;
+    border-radius: 100%;
+    width: 5rem;
+    position: absolute;
+    inset: 0;
+    margin: auto;
 }
