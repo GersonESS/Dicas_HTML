@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
   }
-  
-  body {
-      height: 50px;
-    }
+  /*body{
+    background-image: url(amico.svg) ;
+    background-size: 100%;     
+   }
