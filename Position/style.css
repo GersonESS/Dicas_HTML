@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .conteudo-principal-escrito-botao{
+    position: absolute;
+    right: 70px;
+    bottom: 199px;
+  }
+  /*body{
+    background-image: url(amico.svg) ;
+    background-size: 100%;     
+   }
