@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+  }
+.container{
+      width: 200px;
+      height: 200px;
+      background: blue;
+      color: white;
+}
+body{
+  height: 300vh;
+  background-image: url(amico.svg) ;
+  background-size: 100%;    
+}
+.container1{ 
+  position: fixed;
+  top: 150px;
+  left: 210px;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  color: white;
+}
+.container2{ 
+  position: sticky;
+  top: 0px;
+  left: 430px;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  color: white;
+}
+.container3{ 
+  position: relative;
+  top: 0px;
+  left: 650px;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  color: white;
+}
+.container4{ 
+  position: relative;
+  margin-top: 10vh;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  color: white;
+  left: 700px;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background: green;  
+}
+.box1{
+  width: 100px;
+  height: 100px;
+  background: green;  
+}
+.box3{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: green;  
+}
+.box4{
+  top: 10px;
+  position: absolute;
+  left: 350px;
+  width: 250px;
+  height: 150px;
+  background: green;  
+}
